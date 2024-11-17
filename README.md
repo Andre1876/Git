@@ -177,6 +177,30 @@ This merges the current branch with another specified branch.
 
 ---
 
+### How to list all branches in Git:  
+This lists all the branches in your repository.  
+### 🔶 `git branch`
+
+---
+
+### How to list remote branches in Git:  
+This lists all the remote branches.  
+### 🔶 `git branch -r`
+
+---
+
+### How to check out a remote branch in Git:  
+This command checks out a remote branch for local use.  
+### 🔶 `git checkout --track origin/branch_name`
+
+---
+
+### How to rebase a branch in Git:  
+This command helps you reapply your changes on top of another branch.  
+### 🔶 `git rebase branch_name`
+
+---
+
 ## Remote Repositories in Git
 
 ### How to add a remote repository in Git:  
@@ -191,11 +215,107 @@ This pushes your changes to the remote repository.
 
 ---
 
+### How to push a specific branch to a remote repo in Git:  
+This command pushes a specific branch to the remote repository.  
+### 🔶 `git push origin branch_name`
+
+---
+
 ### How to pull changes from a remote repo in Git:  
 If other team members have made changes, you can retrieve their latest updates using this command.  
 ### 🔶 `git pull`
 
 ---
+
+### How to fetch changes from a remote repo in Git:  
+This retrieves the latest changes without merging them.  
+### 🔶 `git fetch`
+
+---
+
+### How to clone a repository in Git:  
+This command creates a local copy of a remote repository.  
+### 🔶 `git clone https://repo_here`
+
+---
+
+### How to remove a remote repository from Git:  
+This command removes a remote repository from your local configuration.  
+### 🔶 `git remote remove origin`
+
+---
+
+## Advanced Git Commands
+
+### How to stash changes in Git:  
+This saves your changes temporarily so you can work on something else.  
+### 🔶 `git stash`
+
+---
+
+### How to list all stashes in Git:  
+This command shows all the saved stashes.  
+### 🔶 `git stash list`
+
+---
+
+### How to apply a stash in Git:  
+This restores the changes you stashed earlier.  
+### 🔶 `git stash apply`
+
+---
+
+### How to apply a specific stash in Git:  
+You can apply a specific stash by referring to its ID.  
+### 🔶 `git stash apply stash@{stash_id}`
+
+---
+
+### How to drop a stash in Git:  
+This removes a stash from the list.  
+### 🔶 `git stash drop stash@{stash_id}`
+
+---
+
+### How to create a tag in Git:  
+Tags are useful for marking specific points in history.  
+### 🔶 `git tag tag_name`
+
+---
+
+### How to list tags in Git:  
+This command lists all tags in the repository.  
+### 🔶 `git tag`
+
+---
+
+### How to push tags to a remote repo in Git:  
+This pushes tags to the remote repository.  
+### 🔶 `git push origin tag_name`
+
+---
+
+### How to delete a local tag in Git:  
+You can delete a tag from your local repository.  
+### 🔶 `git tag -d tag_name`
+
+---
+
+### How to revert a commit in Git:  
+This command allows you to undo a commit by creating a new commit that reverts the changes made.  
+🔶 `git revert commit_id`
+
+---
+
+### How to check the differences between two commits in Git:  
+This command shows the differences between two commits. Replace `commit_id1` and `commit_id2` with actual commit IDs.  
+🔶 `git diff commit_id1 commit_id2`
+
+---
+
+### How to pull changes from a remote repo in Git:  
+If other team members have made changes, you can retrieve their latest updates using this command.  
+🔶 `git pull`
 
 ## Conclusion  
 These Git commands can significantly boost your productivity. You don't need to memorize all of them—just refer to this cheat sheet whenever needed. Fork this repo and print it for future reference.  
